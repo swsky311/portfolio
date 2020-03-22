@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>문서 제목</title>
+
+	<style>
+		body{border:1px solid #000;}
+		#div1{
+			background-color: yellow;
+			width: 45%;
+			display: inline-block;
+		}
+		div[name="div1"]{
+			border:1px solid red;
+		}
+		#div2{
+			background-color: aqua;
+			width: 45%;
+			display: inline-block;
+		}
+		span{
+			background-color: red;
+		}
+
+		table{
+			border:1px solid blue;
+		}
+		table td{
+			border:1px solid blue;
+		}
+	</style>
+	
+</head>
+
+<body>
+	<h1>Hello World!!</h1>
+	<h2>Hello World!!</h2>
+	<h3>Hello World!!</h3>
+	<h4>Hello World!!</h4>
+
+	<img src="https://t1.daumcdn.net/daumtop_chanel/op/20170315064553027.png">
+
+	<div id="div1" class="div1" name="div1">
+		<input type="text"> <br>
+		<label> <input type="radio" id="a" name="sex"> 여자</label>
+		<label> <input type="radio" id="b" name="sex"> 남자</label><br>
+		<input type="checkbox" id="c" name="abc"> <label for="c"> 콜라</label>
+		<input type="checkbox" id="d" name="abc"> <label for="d"> 사이다</label>
+		<input type="checkbox" id="e" name="abc"> <label for="e"> 소주</label><br>
+		<select>
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		</select>
+		<textarea>
+
+		</textarea>
+	</div>
+	<div id="div2">div2</div>
+	<span>span</span><br>
+	김수원<br>
+	김수원
+	김수원
+	<p style="width:400px">홈짱닷컴의 홈페이지 제작강좌는 초보자를 대상으로 합니다. 그러므로 가능한 쉬운 용어를 일관성 있게 사용할려고 노력하고 있습니다.</p>
+	<p style="width:400px">홈짱닷컴의 HTML 강좌는 단순히 화면에 출력되는 문서의 모양만 설명하지 않고 보다 의미있는 HTML 문서를 작성하는 방법을 추구하고 있습니다.</p>
+	한글<br>
+	만세
+
+	<ul>
+		<li>
+			1
+			<ul>
+				<li>ㄱ</li>
+				<li>ㄴ</li>
+				<li>ㄷ
+					<ul>
+						<li>
+							a
+						</li>
+						<li>
+							b
+						</li>
+						<li>
+							c
+						</li>	
+					</ul>
+				</li>
+			</ul>
+		</li>
+
+		
+		<li>2</li>
+		<li>3</li>
+		
+	</ul>
+
+	<table>
+		<tbody>
+			<tr>
+				<td>번호</td>
+				<td>이름</td>
+				<td>과목</td>
+				<td>성적</td>
+			</tr>
+		</tbody>
+
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>김수원</td>
+				<td>자바스크립트</td>
+				<td>A</td>
+			</tr>
+
+			<tr>
+				<td>2</td>
+				<td>김수원</td>
+				<td>자바</td>
+				<td>B</td>
+			</tr>
+
+		</tbody>
+	</table>
+	<a href="https:www.naver.com">네이버</a>
+	<a href="https:www.daum.net" target="_blank">다음</a>
+	<a href="#div1" target="_blank">div1</a><br>
+
+	<iframe src="http://www.ppomppu.co.kr/" name="ifrm"></iframe>
+	<style>
+		iframe{
+			width: 500px;
+			height: 500px;
+		}
+	</style>
+</body>
+</html>
